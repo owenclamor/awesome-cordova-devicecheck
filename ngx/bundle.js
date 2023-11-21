@@ -33,6 +33,7 @@ var DeviceCheck = /** @class */ (function (_super) {
     DeviceCheck.prototype.getCPU = function (arg1) { return core.cordova(this, "getCPU", {}, arguments); };
     DeviceCheck.prototype.getRAM = function (arg1) { return core.cordova(this, "getRAM", {}, arguments); };
     DeviceCheck.prototype.getDeviceName = function (arg1) { return core.cordova(this, "getDeviceName", {}, arguments); };
+    DeviceCheck.prototype.getDeviceSDK = function (arg1) { return core.cordova(this, "getDeviceSDK", {}, arguments); };
     DeviceCheck.ɵfac = i0__namespace.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: DeviceCheck, deps: null, target: i0__namespace.ɵɵFactoryTarget.Injectable });
     DeviceCheck.ɵprov = i0__namespace.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: DeviceCheck });
     DeviceCheck.pluginName = "DeviceCheck";
@@ -47,6 +48,6 @@ var DeviceCheck = /** @class */ (function (_super) {
 }(core.AwesomeCordovaNativePlugin));
 i0__namespace.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "12.2.16", ngImport: i0__namespace, type: DeviceCheck, decorators: [{
             type: i0.Injectable
-        }], propDecorators: { functionName: [], coolMethod: [], getCPU: [], getRAM: [], getDeviceName: [] } });
+        }], propDecorators: { functionName: [], coolMethod: [], getCPU: [], getRAM: [], getDeviceName: [], getDeviceSDK: [] } });
 
 exports.DeviceCheck = DeviceCheck;

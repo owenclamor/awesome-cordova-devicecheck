@@ -32,6 +32,7 @@ export declare class DeviceCheckOriginal extends AwesomeCordovaNativePlugin {
     getCPU(arg1: string): Promise<any>;
     getRAM(arg1: string): Promise<any>;
     getDeviceName(arg1: string): Promise<any>;
+    getDeviceSDK(arg1: string): Promise<any>;
 }
 
 export declare const DeviceCheck: DeviceCheckOriginal;
